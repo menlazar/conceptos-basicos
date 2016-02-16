@@ -47,8 +47,8 @@
 var numeros = [1,2,3,4,5,6,7,8,9,0];
 var signos = ['-'];
 
-var concatenarv2 = letras[0] + numeros[0] + letras[1] + numeros [1] + letras[2] + numeros[2] + letras[3] +
+var concatenarV2 = letras[0] + numeros[0] + letras[1] + numeros [1] + letras[2] + numeros[2] + letras[3] +
 numeros[3] + letras[4] + numeros[4] + signos;
-var concatenarv3 = [1234567890];
+var numerosSeguidos = [1234567890];
 
-console.log(concatenarv2 + concatenarv3);*/
+console.log(concatenarV2 + numerosSeguidos);*/
