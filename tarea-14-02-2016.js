@@ -43,19 +43,23 @@
  * Nota: No es posible crear más de dos carácteres por variable
  */
 
-/*var a = 'A';
+var a = 'A';
 var b = 'B';
 var c = 'C';
 var d = 'D';
 var e = 'E';
-var n1 = '1';
-var n2 = '2';
-var n3 = '3';
-var n4 = '4';
-var n5 = '5';
+var n1 = 1;
+var n2 = 2;
+var n3 = 3;
+var n4 = 4;
+var n5 = 5;
+var n6 = 6;
+var n7 = 7;
+var n8 = 8;
+var n9 = 9;
+var n0 = 0;
 var signo = '-';
-var concatenarN = n1.concat(2,3,4,5,6,7,8,9,0);
 
-var concatenar = a + n1 + b + n2 + c + n3 + d + n4 + e + n5 + signo + concatenarN;
+var suma = a + n1 + b + n2 + c + n3 + d + n4 + e + n5 + signo + n1 + n2 + n3 + n4 + n5+ n6 + n7 + n8+ n9+ n0;
 
-console.log(concatenar);*/
+console.log('el resultado del codigo es: ' + suma);
