@@ -60,6 +60,5 @@ var n9 = 9;
 var n0 = 0;
 var signo = '-';
 
-var suma = a + n1 + b + n2 + c + n3 + d + n4 + e + n5 + signo + n1 + n2 + n3 + n4 + n5+ n6 + n7 + n8+ n9+ n0;
-
-console.log('el resultado del codigo es: ' + suma);
+console.log('el resultado del codigo es: ' + a + n1 + b + n2 + c + n3 + d + n4 + e + n5 + signo 
++ n1 + n2 + n3 + n4 + n5+ n6 + n7 + n8+ n9+ n0);
