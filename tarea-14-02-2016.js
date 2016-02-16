@@ -43,12 +43,19 @@
  * Nota: No es posible crear más de dos carácteres por variable
  */
 
-/*var letras = ['A','B','C','D','E'];
-var numeros = [1,2,3,4,5,6,7,8,9,0];
-var signos = ['-'];
+/*var a = 'A';
+var b = 'B';
+var c = 'C';
+var d = 'D';
+var e = 'E';
+var n1 = '1';
+var n2 = '2';
+var n3 = '3';
+var n4 = '4';
+var n5 = '5';
+var signo = '-';
+var concatenarN = n1.concat(2,3,4,5,6,7,8,9,0);
 
-var concatenarV2 = letras[0] + numeros[0] + letras[1] + numeros [1] + letras[2] + numeros[2] + letras[3] +
-numeros[3] + letras[4] + numeros[4] + signos;
-var numerosSeguidos = [1234567890];
+var concatenar = a + n1 + b + n2 + c + n3 + d + n4 + e + n5 + signo + concatenarN;
 
-console.log(concatenarV2 + numerosSeguidos);*/
+console.log(concatenar);*/
