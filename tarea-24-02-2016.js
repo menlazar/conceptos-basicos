@@ -6,6 +6,10 @@
  * A9B8C7D6E5+123654789
  */
 
+ var arrayL = ['A', 'B', 'C', 'D', 'E', 1, 2, 3, 4, 5, 6, 7, 8, 9];
+ 
+
+ console.log()
 // EJERCICIO 2.
 /**
  * Leer sobre el ciclo for in para objetos de la forma:

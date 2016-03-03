@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 // EJERCICIO 1:
 
 /**
