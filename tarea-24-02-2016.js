@@ -6,15 +6,28 @@
  * A9B8C7D6E5+123654789
  */
 
-var arrayL = ['A', 'B', 'C', 'D', 'E'];
+/*var arrayL = ['A', 'B', 'C', 'D', 'E'];
 var arrayN = [9,8,7,6,5,4,3,2,1];
 var s = '';
 for(var i=0; i<5; i++){
  	s += arrayL[i] + arrayN[i];
 }
 
- 	console.log(s);
+s += '+';
 
+for (var i=1; i<4; i++) {
+  s += i;
+}
+
+for (var i=6; i>3; i--) {
+  s += i;
+}
+
+for (var i=7; i<10; i++) {
+  s += i;
+}
+console.log(s);
+*/
 
 // EJERCICIO 2.
 // *
@@ -46,12 +59,12 @@ for (var i in obj){
 }
 console.log('la suma de ambos numeros es: ' + x);*/
 
-// suma(2,8);
 
-// function suma(x, y) {
-// 	console.log('La suma de ambos numeros es: ', x+y);
-// }
 
+function suma(x, y, z) {
+	console.log('La suma de ambos numeros es: ', x+y);
+}
+suma(2,8);
 
 	
 // EJERCICIO 4
