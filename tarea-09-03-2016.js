@@ -11,6 +11,23 @@
  * Necesito que sea una funcion que yo le pueda pasar los parametros:
  * moneda y monto (en quetzales) y me devuelva el monto (en la moneda que he pasado de parametro)
  */
+/*function conversor(y, convert) {
+  switch (convert) {
+    case 'dolar':
+    console.log(7.70*y);
+    break;
+    case 'euro':
+    console.log(10.80 *y);
+    break;
+    case 'libra':
+    console.log(12.25*y);
+    break;
+    default:
+    console.log('Tipo de Cambio de moneda no disponible en su país');
+  }
+}
+
+conversor(10,'libra');*/
 
 // Ejercicio 3
 /**
@@ -21,3 +38,37 @@
  * mejor sitio según mi criterio: http://devdocs.io/javascript/global_objects/math
  * Segundo mejor sitio: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math
  */
+
+function calculadora (x,y,operacion){
+  switch (operacion) {
+    case '+':
+    console.log(x+y);
+    break;
+    case '-':
+    console.log(x-y);
+    break;
+    case '*':
+    console.log(x*y);
+    break;
+    case '/':
+    console.log(x/y);
+    break;
+    case 'abs':
+    console.log();
+    break;
+    case '+':
+    console.log(x+y);
+    break;
+    case '+':
+    console.log(x+y);
+    break;
+    case '+':
+    console.log(x+y);
+    break;
+    case '+':
+    console.log(x+y);
+    break;
+
+  }
+}
+calculadora(2,3,'abs');
