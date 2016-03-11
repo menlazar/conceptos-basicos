@@ -76,5 +76,3 @@ sqrt
 // Usando Ecmascript 6 = Javascript 2015
 // var resultado = (x,y) => x+y;
 // console.log(resultado(2,4));
-
-
