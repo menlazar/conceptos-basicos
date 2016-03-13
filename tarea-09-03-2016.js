@@ -39,6 +39,7 @@ conversor(10,'libra');*/
  * Segundo mejor sitio: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math
  */
 
+
 function calculadora (x,y,operacion){
   switch (operacion) {
     case '+':
@@ -53,22 +54,22 @@ function calculadora (x,y,operacion){
     case '/':
     console.log(x/y);
     break;
-    case 'abs':
-    console.log();
+    case 'raiz':
+    console.log(Math.sqrt(x+y));
     break;
-    case '+':
-    console.log(x+y);
+    case 'raizCubica':
+    console.log(Math.cbrt(x+y));
     break;
-    case '+':
-    console.log(x+y);
+    case 'absoluto':
+    console.log(Math.abs(x/y));
     break;
-    case '+':
-    console.log(x+y);
+    case 'coseno':
+    console.log(Math.cos(x));
     break;
-    case '+':
-    console.log(x+y);
+    case 'cosenoInverso':
+    console.log(Math.acos(x-y));
     break;
 
   }
 }
-calculadora(2,3,'abs');
+calculadora(23,25,'cosenoInverso');
