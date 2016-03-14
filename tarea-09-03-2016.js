@@ -66,10 +66,22 @@ function calculadora (x,y,operacion){
     case 'coseno':
     console.log(Math.cos(x));
     break;
-    case 'cosenoInverso':
-    console.log(Math.acos(x-y));
+    case 'seno':
+    console.log(Math.sin(x));
+    break;
+    case 'enteroIgual':
+    console.log(Math.ceil(x+y));
+    break;
+    case 'exponente':
+    console.log(Math.exp(x));
+    break;
+    case 'PI':
+    console.log(Math.PI);
+    break;
+    case 'potencia':
+    console.log(Math.pow(x));
     break;
 
   }
 }
-calculadora(23,25,'cosenoInverso');
+calculadora(30,0,'coseno');
