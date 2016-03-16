@@ -11,13 +11,21 @@
   <p></p>
   <p></p>
     <script type="text/javascript">
-   var numInicial = 1
+   var numInicial = 3;
+   document.write('listado de numeros: <br> ');
     do {
-      document.write('listado de numeros: ' + numInicial);
-      numInicial += 2;
-    } while (numInicial < 201);
+      var mods = 0;
+      for (var i=1; i <= numInicial; i++) {
+        if (numInicial%i === 0) {
+          mods++;
+        }
+      }
+      if (mods === 2) {
+        document.write(numInicial + '<br>');  
+      }
+      numInicial++;
+    } while (numInicial < 20);
 
   </script>
-
 </body>
 </html>

@@ -81,7 +81,6 @@ function calculadora (x,y,operacion){
     case 'potencia':
     console.log(Math.pow(x));
     break;
-
   }
 }
 calculadora(30,0,'coseno');
